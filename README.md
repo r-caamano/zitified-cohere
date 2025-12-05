@@ -33,7 +33,7 @@ Console.
    a. cohere_client01
    ```
 
-2. Add a Customer hosted edge router "gcp-cohere-edge01" to your network
+2. Add a customer hosted edge router "gcp-cohere-edge01" to your network
 
 ![Diagram](add_router.png)
 
