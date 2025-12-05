@@ -13,9 +13,13 @@ Console.
 
 1. Create an ubuntu 22.04 vm in AWS or other location with internet access
    a. install prereqs 
+
       ```sudo apt update```
+
       ```sudo apt upgrade```
+
       ```sudo apt install python3-pip python3-venv git```
+      
    b. ## Build the Example
       On the linux system that will run the Client
       clone the repo
@@ -54,8 +58,11 @@ Console.
 4. On the VM created in step one sent a chat command via using zcohere.py e.g.
 
    a. Create a python virtual environment
+
       ```cd ~/repos/zitified-cohere/src```
+
       ```python3 -m venv cohere```
+
       ```source cohere/bin/activate```
 
    b. install openziti and cohere modules
